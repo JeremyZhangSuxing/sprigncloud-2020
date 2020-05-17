@@ -1,0 +1,6 @@
+1.健康检查地址
+localhost:8001/actuator/healthy
+2.自我保护机制
+默认是开启的 eureka cap 理论中实现的的 ap 强调高可用性能，
+心跳机制
+自我保护场景
