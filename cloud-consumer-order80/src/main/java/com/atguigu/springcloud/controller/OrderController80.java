@@ -3,6 +3,7 @@ package com.atguigu.springcloud.controller;
 
 import com.atguigu.springcloud.entities.CommonResult;
 import com.atguigu.springcloud.entities.Payment;
+import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -16,6 +17,7 @@ import javax.annotation.Resource;
  **/
 @RestController
 @Slf4j
+@Api(value = "api/random", tags = {"支付模块"}, description = "支付的控制层")
 public class OrderController80 {
     //    private static final String PAYMENT_URL = "http://localhost:8001";
     /**
