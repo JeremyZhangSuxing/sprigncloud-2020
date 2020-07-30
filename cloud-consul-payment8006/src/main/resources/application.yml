@@ -1,0 +1,15 @@
+server:
+  port: 8006
+spring:
+  application:
+    name: consul-priveder-payment
+  cloud:
+    consul:
+    #注册而中心地址
+      host: http://122.51.171.126
+      discovery:
+        port: 8500
+        service-name: ${spring.application.name}
+
+
+
